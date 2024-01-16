@@ -117,9 +117,9 @@ a{
   justify-content: center;
   margin:0px  auto ;
 }
-.banner-content-part {
+/* .banner-content-part {
 
-}
+} */
 .banner-title{
   color: #FFF;
   font-family: Mulish;
@@ -171,9 +171,9 @@ background: rgba(255, 255, 255, 0.30);
 
 }
 /**main-section**/
-.main-section{
+/* .main-section{
   
-}
+} */
 .tour-content-background{
   padding: 100px 0px;
 
@@ -235,9 +235,9 @@ background: rgba(255, 255, 255, 0.30);
   line-height: 26px; /* 162.5% */
   padding-bottom: 32px;
 }
-.tour-right-content{
+/* .tour-right-content{
 
-}
+} */
 .tour-right-content .tour-photo{
       width: 540px;
       height: 550px;
@@ -554,9 +554,9 @@ list-style: none;
   justify-content: space-between;
   gap: 28px;
 }
-.place-content-left{
+/* .place-content-left{
 
-}
+} */
 .place-title{
   color: #131318;
 font-family: Mulish;
@@ -600,9 +600,9 @@ padding: 24px 0px;
   margin-bottom: 16px;
 
 }
-.place-content-right{
+/* .place-content-right{
 
-}
+} */
 .place-photo{
   width: 610px;
 height: 424px;
@@ -800,6 +800,7 @@ margin: 0px auto;
   line-height: normal;
 }
 /**response meida query coding section**/
+
 @media only screen and (max-width: 600px) {
   .destination-contentOne {
     flex-wrap: wrap;
