@@ -801,30 +801,40 @@ margin: 0px auto;
 }
 /**response meida query coding section**/
 
-@media only screen and (max-width: 600px) {
-  .destination-contentOne {
-    flex-wrap: wrap;
+@media  screen and (max-width: 600px) {
+  .navbar, .selectType {
+    flex-direction: column;
+    padding: 10px;
+    
 
   }
+  .banner-form-part{
+    flex-direction: column;
+  }
+
   .choose-card-content{
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1,(1fr);
 
   }
   .choose-end-content{
-    flex-wrap: wrap;
+    flex-direction: column;
     
   }
   .choose-cards{
-    padding: 32px;
+    padding: 20px;
   }
 .destination-describetion{
   padding: 24px;
 }
 .tour-content{
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 .banner-describe{
   padding:0px;
+}
+.footer-section{
+  flex-direction: column;
 }
   
 }
