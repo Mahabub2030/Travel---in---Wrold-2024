@@ -802,11 +802,18 @@ margin: 0px auto;
 /**response meida query coding section**/
 
 @media  screen and (max-width: 600px) {
-  .navbar, .selectType {
+  .navbar {
     flex-direction: column;
     padding: 10px;
     
 
+  }
+  @media screen and (max-width : 600px) {
+    .navbar{
+      flex-direction: column;
+     
+    }
+    
   }
   .banner-form-part{
     flex-direction: column;
